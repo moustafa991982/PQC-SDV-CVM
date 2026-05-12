@@ -1,0 +1,68 @@
+#cloud-config
+# user-data for the QEMU VCU
+# - Sets up user 'vcu' with password 'vcu' (demo only)
+# - Installs tshark + capture capabilities
+# - Builds OpenSSL 3.5 from source into /opt/openssl
+#
+# First boot takes ~5-8 minutes because of the OpenSSL build. After that the
+# VM boots cleanly in under a minute.
+
+users:
+  - name: vcu
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    groups: [sudo, wireshark]
+    shell: /bin/bash
+    plain_text_passwd: vcu
+    lock_passwd: false
+
+ssh_pwauth: true
+chpasswd:
+  expire: false
+
+hostname: vcu
+
+package_update: true
+package_upgrade: false
+
+packages:
+  - build-essential
+  - git
+  - curl
+  - wget
+  - tshark
+  - wireshark-common
+  - libssl-dev
+  - zlib1g-dev
+  - sshpass
+
+write_files:
+  - path: /etc/sysctl.d/99-vcu.conf
+    content: |
+      net.core.somaxconn = 1024
+      net.ipv4.tcp_max_syn_backlog = 1024
+    permissions: "0644"
+
+  - path: /usr/local/bin/build-openssl.sh
+    permissions: "0755"
+    content: |
+      #!/usr/bin/env bash
+      set -euo pipefail
+      cd /tmp
+      VERSION=3.5.0
+      wget -q "https://www.openssl.org/source/openssl-${VERSION}.tar.gz"
+      tar xf "openssl-${VERSION}.tar.gz"
+      cd "openssl-${VERSION}"
+      ./Configure --prefix=/opt/openssl --openssldir=/opt/openssl \
+                  no-shared no-tests no-docs
+      make -j"$(nproc)"
+      make install_sw
+      /opt/openssl/bin/openssl version
+      /opt/openssl/bin/openssl list -kem-algorithms | grep -i mlkem || \
+        { echo "ML-KEM not available!" ; exit 1 ; }
+
+runcmd:
+  # Grant dumpcap the capabilities tshark needs so capture works without sudo
+  - setcap cap_net_raw,cap_net_admin=eip /usr/bin/dumpcap
+  # Build OpenSSL 3.5 (~5-8 minutes)
+  - /usr/local/bin/build-openssl.sh
+  - touch /var/lib/cloud/openssl-ready

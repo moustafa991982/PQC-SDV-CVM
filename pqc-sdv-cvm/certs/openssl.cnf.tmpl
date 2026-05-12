@@ -1,0 +1,42 @@
+# Shared OpenSSL config template used by certs/build_chains.sh
+# The build script substitutes ${CN}, ${OU}, ${SERVER_FQDN}.
+
+[ req ]
+distinguished_name = req_dn
+prompt             = no
+default_md         = sha384
+req_extensions     = v3_req
+
+[ req_dn ]
+C  = DE
+O  = pqc-sdv-cvm demo
+OU = ${OU}
+CN = ${CN}
+
+[ v3_req ]
+basicConstraints = critical, CA:FALSE
+keyUsage         = critical, digitalSignature
+
+[ v3_root ]
+subjectKeyIdentifier   = hash
+authorityKeyIdentifier = keyid:always
+basicConstraints       = critical, CA:TRUE, pathlen:1
+keyUsage               = critical, keyCertSign, cRLSign
+
+[ v3_subca ]
+subjectKeyIdentifier   = hash
+authorityKeyIdentifier = keyid:always
+basicConstraints       = critical, CA:TRUE, pathlen:0
+keyUsage               = critical, keyCertSign, cRLSign
+
+[ v3_leaf ]
+subjectKeyIdentifier   = hash
+authorityKeyIdentifier = keyid:always
+basicConstraints       = critical, CA:FALSE
+keyUsage               = critical, digitalSignature, keyEncipherment
+extendedKeyUsage       = serverAuth
+subjectAltName         = @alt_names
+
+[ alt_names ]
+DNS.1 = vcu-backend.local
+DNS.2 = ${SERVER_FQDN}
