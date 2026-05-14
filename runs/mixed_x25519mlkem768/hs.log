@@ -1,0 +1,240 @@
+Connecting to 4.180.176.55
+depth=2 C=DE, O=pqc-sdv-cvm demo, OU=Root CA, CN=PQC-SDV mixed root
+verify error:num=19:self-signed certificate in certificate chain
+CONNECTION ESTABLISHED
+Protocol version: TLSv1.3
+Ciphersuite: TLS_AES_256_GCM_SHA384
+Peer certificate: C=DE, O=pqc-sdv-cvm demo, OU=VCU Backend, CN=vcu-backend.example.com
+Hash used: SHA256
+Signature type: ecdsa_secp256r1_sha256
+Verification error: self-signed certificate in certificate chain
+Negotiated TLS1.3 group: X25519MLKEM768
+DONE
+Connecting to 4.180.176.55
+depth=2 C=DE, O=pqc-sdv-cvm demo, OU=Root CA, CN=PQC-SDV mixed root
+verify error:num=19:self-signed certificate in certificate chain
+CONNECTION ESTABLISHED
+Protocol version: TLSv1.3
+Ciphersuite: TLS_AES_256_GCM_SHA384
+Peer certificate: C=DE, O=pqc-sdv-cvm demo, OU=VCU Backend, CN=vcu-backend.example.com
+Hash used: SHA256
+Signature type: ecdsa_secp256r1_sha256
+Verification error: self-signed certificate in certificate chain
+Negotiated TLS1.3 group: X25519MLKEM768
+DONE
+Connecting to 4.180.176.55
+depth=2 C=DE, O=pqc-sdv-cvm demo, OU=Root CA, CN=PQC-SDV mixed root
+verify error:num=19:self-signed certificate in certificate chain
+CONNECTION ESTABLISHED
+Protocol version: TLSv1.3
+Ciphersuite: TLS_AES_256_GCM_SHA384
+Peer certificate: C=DE, O=pqc-sdv-cvm demo, OU=VCU Backend, CN=vcu-backend.example.com
+Hash used: SHA256
+Signature type: ecdsa_secp256r1_sha256
+Verification error: self-signed certificate in certificate chain
+Negotiated TLS1.3 group: X25519MLKEM768
+DONE
+Connecting to 4.180.176.55
+depth=2 C=DE, O=pqc-sdv-cvm demo, OU=Root CA, CN=PQC-SDV mixed root
+verify error:num=19:self-signed certificate in certificate chain
+CONNECTION ESTABLISHED
+Protocol version: TLSv1.3
+Ciphersuite: TLS_AES_256_GCM_SHA384
+Peer certificate: C=DE, O=pqc-sdv-cvm demo, OU=VCU Backend, CN=vcu-backend.example.com
+Hash used: SHA256
+Signature type: ecdsa_secp256r1_sha256
+Verification error: self-signed certificate in certificate chain
+Negotiated TLS1.3 group: X25519MLKEM768
+DONE
+Connecting to 4.180.176.55
+depth=2 C=DE, O=pqc-sdv-cvm demo, OU=Root CA, CN=PQC-SDV mixed root
+verify error:num=19:self-signed certificate in certificate chain
+CONNECTION ESTABLISHED
+Protocol version: TLSv1.3
+Ciphersuite: TLS_AES_256_GCM_SHA384
+Peer certificate: C=DE, O=pqc-sdv-cvm demo, OU=VCU Backend, CN=vcu-backend.example.com
+Hash used: SHA256
+Signature type: ecdsa_secp256r1_sha256
+Verification error: self-signed certificate in certificate chain
+Negotiated TLS1.3 group: X25519MLKEM768
+DONE
+Connecting to 4.180.176.55
+depth=2 C=DE, O=pqc-sdv-cvm demo, OU=Root CA, CN=PQC-SDV mixed root
+verify error:num=19:self-signed certificate in certificate chain
+CONNECTION ESTABLISHED
+Protocol version: TLSv1.3
+Ciphersuite: TLS_AES_256_GCM_SHA384
+Peer certificate: C=DE, O=pqc-sdv-cvm demo, OU=VCU Backend, CN=vcu-backend.example.com
+Hash used: SHA256
+Signature type: ecdsa_secp256r1_sha256
+Verification error: self-signed certificate in certificate chain
+Negotiated TLS1.3 group: X25519MLKEM768
+DONE
+Connecting to 4.180.176.55
+depth=2 C=DE, O=pqc-sdv-cvm demo, OU=Root CA, CN=PQC-SDV mixed root
+verify error:num=19:self-signed certificate in certificate chain
+CONNECTION ESTABLISHED
+Protocol version: TLSv1.3
+Ciphersuite: TLS_AES_256_GCM_SHA384
+Peer certificate: C=DE, O=pqc-sdv-cvm demo, OU=VCU Backend, CN=vcu-backend.example.com
+Hash used: SHA256
+Signature type: ecdsa_secp256r1_sha256
+Verification error: self-signed certificate in certificate chain
+Negotiated TLS1.3 group: X25519MLKEM768
+DONE
+Connecting to 4.180.176.55
+depth=2 C=DE, O=pqc-sdv-cvm demo, OU=Root CA, CN=PQC-SDV mixed root
+verify error:num=19:self-signed certificate in certificate chain
+CONNECTION ESTABLISHED
+Protocol version: TLSv1.3
+Ciphersuite: TLS_AES_256_GCM_SHA384
+Peer certificate: C=DE, O=pqc-sdv-cvm demo, OU=VCU Backend, CN=vcu-backend.example.com
+Hash used: SHA256
+Signature type: ecdsa_secp256r1_sha256
+Verification error: self-signed certificate in certificate chain
+Negotiated TLS1.3 group: X25519MLKEM768
+DONE
+Connecting to 4.180.176.55
+depth=2 C=DE, O=pqc-sdv-cvm demo, OU=Root CA, CN=PQC-SDV mixed root
+verify error:num=19:self-signed certificate in certificate chain
+CONNECTION ESTABLISHED
+Protocol version: TLSv1.3
+Ciphersuite: TLS_AES_256_GCM_SHA384
+Peer certificate: C=DE, O=pqc-sdv-cvm demo, OU=VCU Backend, CN=vcu-backend.example.com
+Hash used: SHA256
+Signature type: ecdsa_secp256r1_sha256
+Verification error: self-signed certificate in certificate chain
+Negotiated TLS1.3 group: X25519MLKEM768
+DONE
+Connecting to 4.180.176.55
+depth=2 C=DE, O=pqc-sdv-cvm demo, OU=Root CA, CN=PQC-SDV mixed root
+verify error:num=19:self-signed certificate in certificate chain
+CONNECTION ESTABLISHED
+Protocol version: TLSv1.3
+Ciphersuite: TLS_AES_256_GCM_SHA384
+Peer certificate: C=DE, O=pqc-sdv-cvm demo, OU=VCU Backend, CN=vcu-backend.example.com
+Hash used: SHA256
+Signature type: ecdsa_secp256r1_sha256
+Verification error: self-signed certificate in certificate chain
+Negotiated TLS1.3 group: X25519MLKEM768
+DONE
+Connecting to 4.180.176.55
+depth=2 C=DE, O=pqc-sdv-cvm demo, OU=Root CA, CN=PQC-SDV mixed root
+verify error:num=19:self-signed certificate in certificate chain
+CONNECTION ESTABLISHED
+Protocol version: TLSv1.3
+Ciphersuite: TLS_AES_256_GCM_SHA384
+Peer certificate: C=DE, O=pqc-sdv-cvm demo, OU=VCU Backend, CN=vcu-backend.example.com
+Hash used: SHA256
+Signature type: ecdsa_secp256r1_sha256
+Verification error: self-signed certificate in certificate chain
+Negotiated TLS1.3 group: X25519MLKEM768
+DONE
+Connecting to 4.180.176.55
+depth=2 C=DE, O=pqc-sdv-cvm demo, OU=Root CA, CN=PQC-SDV mixed root
+verify error:num=19:self-signed certificate in certificate chain
+CONNECTION ESTABLISHED
+Protocol version: TLSv1.3
+Ciphersuite: TLS_AES_256_GCM_SHA384
+Peer certificate: C=DE, O=pqc-sdv-cvm demo, OU=VCU Backend, CN=vcu-backend.example.com
+Hash used: SHA256
+Signature type: ecdsa_secp256r1_sha256
+Verification error: self-signed certificate in certificate chain
+Negotiated TLS1.3 group: X25519MLKEM768
+DONE
+Connecting to 4.180.176.55
+depth=2 C=DE, O=pqc-sdv-cvm demo, OU=Root CA, CN=PQC-SDV mixed root
+verify error:num=19:self-signed certificate in certificate chain
+CONNECTION ESTABLISHED
+Protocol version: TLSv1.3
+Ciphersuite: TLS_AES_256_GCM_SHA384
+Peer certificate: C=DE, O=pqc-sdv-cvm demo, OU=VCU Backend, CN=vcu-backend.example.com
+Hash used: SHA256
+Signature type: ecdsa_secp256r1_sha256
+Verification error: self-signed certificate in certificate chain
+Negotiated TLS1.3 group: X25519MLKEM768
+DONE
+Connecting to 4.180.176.55
+depth=2 C=DE, O=pqc-sdv-cvm demo, OU=Root CA, CN=PQC-SDV mixed root
+verify error:num=19:self-signed certificate in certificate chain
+CONNECTION ESTABLISHED
+Protocol version: TLSv1.3
+Ciphersuite: TLS_AES_256_GCM_SHA384
+Peer certificate: C=DE, O=pqc-sdv-cvm demo, OU=VCU Backend, CN=vcu-backend.example.com
+Hash used: SHA256
+Signature type: ecdsa_secp256r1_sha256
+Verification error: self-signed certificate in certificate chain
+Negotiated TLS1.3 group: X25519MLKEM768
+DONE
+Connecting to 4.180.176.55
+depth=2 C=DE, O=pqc-sdv-cvm demo, OU=Root CA, CN=PQC-SDV mixed root
+verify error:num=19:self-signed certificate in certificate chain
+CONNECTION ESTABLISHED
+Protocol version: TLSv1.3
+Ciphersuite: TLS_AES_256_GCM_SHA384
+Peer certificate: C=DE, O=pqc-sdv-cvm demo, OU=VCU Backend, CN=vcu-backend.example.com
+Hash used: SHA256
+Signature type: ecdsa_secp256r1_sha256
+Verification error: self-signed certificate in certificate chain
+Negotiated TLS1.3 group: X25519MLKEM768
+DONE
+Connecting to 4.180.176.55
+depth=2 C=DE, O=pqc-sdv-cvm demo, OU=Root CA, CN=PQC-SDV mixed root
+verify error:num=19:self-signed certificate in certificate chain
+CONNECTION ESTABLISHED
+Protocol version: TLSv1.3
+Ciphersuite: TLS_AES_256_GCM_SHA384
+Peer certificate: C=DE, O=pqc-sdv-cvm demo, OU=VCU Backend, CN=vcu-backend.example.com
+Hash used: SHA256
+Signature type: ecdsa_secp256r1_sha256
+Verification error: self-signed certificate in certificate chain
+Negotiated TLS1.3 group: X25519MLKEM768
+DONE
+Connecting to 4.180.176.55
+depth=2 C=DE, O=pqc-sdv-cvm demo, OU=Root CA, CN=PQC-SDV mixed root
+verify error:num=19:self-signed certificate in certificate chain
+CONNECTION ESTABLISHED
+Protocol version: TLSv1.3
+Ciphersuite: TLS_AES_256_GCM_SHA384
+Peer certificate: C=DE, O=pqc-sdv-cvm demo, OU=VCU Backend, CN=vcu-backend.example.com
+Hash used: SHA256
+Signature type: ecdsa_secp256r1_sha256
+Verification error: self-signed certificate in certificate chain
+Negotiated TLS1.3 group: X25519MLKEM768
+DONE
+Connecting to 4.180.176.55
+depth=2 C=DE, O=pqc-sdv-cvm demo, OU=Root CA, CN=PQC-SDV mixed root
+verify error:num=19:self-signed certificate in certificate chain
+CONNECTION ESTABLISHED
+Protocol version: TLSv1.3
+Ciphersuite: TLS_AES_256_GCM_SHA384
+Peer certificate: C=DE, O=pqc-sdv-cvm demo, OU=VCU Backend, CN=vcu-backend.example.com
+Hash used: SHA256
+Signature type: ecdsa_secp256r1_sha256
+Verification error: self-signed certificate in certificate chain
+Negotiated TLS1.3 group: X25519MLKEM768
+DONE
+Connecting to 4.180.176.55
+depth=2 C=DE, O=pqc-sdv-cvm demo, OU=Root CA, CN=PQC-SDV mixed root
+verify error:num=19:self-signed certificate in certificate chain
+CONNECTION ESTABLISHED
+Protocol version: TLSv1.3
+Ciphersuite: TLS_AES_256_GCM_SHA384
+Peer certificate: C=DE, O=pqc-sdv-cvm demo, OU=VCU Backend, CN=vcu-backend.example.com
+Hash used: SHA256
+Signature type: ecdsa_secp256r1_sha256
+Verification error: self-signed certificate in certificate chain
+Negotiated TLS1.3 group: X25519MLKEM768
+DONE
+Connecting to 4.180.176.55
+depth=2 C=DE, O=pqc-sdv-cvm demo, OU=Root CA, CN=PQC-SDV mixed root
+verify error:num=19:self-signed certificate in certificate chain
+CONNECTION ESTABLISHED
+Protocol version: TLSv1.3
+Ciphersuite: TLS_AES_256_GCM_SHA384
+Peer certificate: C=DE, O=pqc-sdv-cvm demo, OU=VCU Backend, CN=vcu-backend.example.com
+Hash used: SHA256
+Signature type: ecdsa_secp256r1_sha256
+Verification error: self-signed certificate in certificate chain
+Negotiated TLS1.3 group: X25519MLKEM768
+DONE

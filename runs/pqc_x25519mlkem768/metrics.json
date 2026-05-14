@@ -1,0 +1,35 @@
+{
+  "chain": "pqc",
+  "kem": "x25519mlkem768",
+  "session_count": 20,
+  "handshake_total_bytes": {
+    "n": 20,
+    "median": 27000.0,
+    "mean": 27400,
+    "p95": 28000.0
+  },
+  "handshake_c2s_bytes": {
+    "n": 20,
+    "median": 2677.0,
+    "mean": 2647.3,
+    "p95": 2836.3
+  },
+  "handshake_s2c_bytes": {
+    "n": 20,
+    "median": 25000.0,
+    "mean": 24900,
+    "p95": 25000.0
+  },
+  "handshake_duration_ms": {
+    "n": 20,
+    "median": 259.82,
+    "mean": 289.0,
+    "p95": 415.34
+  },
+  "tcp_segments_per_session": {
+    "n": 20,
+    "median": 42.0,
+    "mean": 40.85,
+    "p95": 47.9
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "chain": "classical",
+  "kem": "x25519",
+  "session_count": 20,
+  "handshake_total_bytes": {
+    "n": 20,
+    "median": 3923.0,
+    "mean": 3941.75,
+    "p95": 4083.25
+  },
+  "handshake_c2s_bytes": {
+    "n": 20,
+    "median": 799.0,
+    "mean": 807.1,
+    "p95": 853.0
+  },
+  "handshake_s2c_bytes": {
+    "n": 20,
+    "median": 3124.0,
+    "mean": 3134.65,
+    "p95": 3230.25
+  },
+  "handshake_duration_ms": {
+    "n": 20,
+    "median": 303.69,
+    "mean": 289.36,
+    "p95": 457.62
+  },
+  "tcp_segments_per_session": {
+    "n": 20,
+    "median": 16.0,
+    "mean": 16.35,
+    "p95": 18.95
+  }
+}

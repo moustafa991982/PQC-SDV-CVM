@@ -1,0 +1,35 @@
+{
+  "chain": "mixed",
+  "kem": "x25519mlkem768",
+  "session_count": 20,
+  "handshake_total_bytes": {
+    "n": 20,
+    "median": 24000.0,
+    "mean": 23750,
+    "p95": 24000.0
+  },
+  "handshake_c2s_bytes": {
+    "n": 20,
+    "median": 2677.0,
+    "mean": 2606.8,
+    "p95": 2782.3
+  },
+  "handshake_s2c_bytes": {
+    "n": 20,
+    "median": 21000.0,
+    "mean": 21000,
+    "p95": 21000.0
+  },
+  "handshake_duration_ms": {
+    "n": 20,
+    "median": 262.1,
+    "mean": 300.62,
+    "p95": 535.18
+  },
+  "tcp_segments_per_session": {
+    "n": 20,
+    "median": 42.0,
+    "mean": 39.4,
+    "p95": 45.9
+  }
+}
